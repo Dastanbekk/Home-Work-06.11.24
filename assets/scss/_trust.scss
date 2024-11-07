@@ -1,0 +1,81 @@
+.trust{
+    background-color: #FBFBFB;
+    padding: 100px 0 20px 0 ;
+
+    &__title{
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 58.61px;
+        text-align: left;
+    }
+
+    &__cards{
+        display: flex;
+        padding: 50px 100px;
+        gap: 30px;
+    }
+    &__card{
+        padding: 58px 0 58px 35px;
+        background-color: #FFF;
+        h3{
+            color: #007bff;
+        }
+        p{
+            color: #191919;
+
+        }
+        b{
+            font-size: 16px;
+            color: #191919;
+        }
+    }
+}
+
+.swiper-container {
+    width: 80%;
+    max-width: 600px;
+    height: 300px;
+    margin: 40px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Стили для слайдов */
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #007bff; /* Синий фон для слайдов */
+}
+
+/* Индивидуальные цвета для разных слайдов */
+.swiper-slide:nth-child(1) { background-color: transparent; } /* Красный */
+.swiper-slide:nth-child(2) { background-color: transparent; } /* Зеленый */
+
+/* Навигационные кнопки */
+.swiper-button-next, .swiper-button-prev {
+    color: #007bff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+/* Позиционирование кнопок навигации */
+.swiper-button-next { right: 10px; }
+.swiper-button-prev { left: 10px; }
+
+/* Стили для пагинации */
+.swiper-pagination-bullet {
+    background-color: #007bff;
+    opacity: 0.5;
+}
+
+/* Активная пуля пагинации */
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background-color: #ff6b6b;
+}
