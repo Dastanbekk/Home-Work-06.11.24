@@ -1,0 +1,67 @@
+.consalt{
+    margin-top: 100px;
+    position: relative;
+    height: 76.5vh;
+    padding: 62px;
+    background: rgb(250,241,237);
+    background: linear-gradient(262deg, rgba(250,241,237,1) 50%, rgba(230,242,255,1) 100%);
+
+    &__in{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__right{
+        top: -15%;
+        position: absolute;
+        right: 0;
+    }
+    &__title{
+        max-width: 700px;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+    }
+    &__desc{
+        margin-top: 40px;
+        max-width: 500px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: left;
+    }
+    &__input{
+        margin-top: 40px;
+        input{
+            padding: 15px 0 15px 10px;
+            outline: none;
+            border:none;
+        }
+        button{
+            padding: 15px;
+            background-color: #38BCEA;
+            color: #FFF;
+            border: 1px solid transparent;
+            cursor: pointer;
+            &:hover{
+                background-color: transparent;
+                color: #38BCEA;
+                border: 1px solid #38BCEA;
+            }
+        }
+    }
+
+    &__text{
+        max-width: 400px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+        margin-top: 35px;
+    }
+    &__right{
+        img{
+            height: 640px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.footer{
+    padding: 65px 0;
+    &__in{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__links{
+        img{
+            width: 40px;
+
+        }
+    }
+    &__right{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        p{
+            max-width: 400px;
+            text-align: center;
+            &:nth-child(2){
+                text-align: start;
+                max-width: 250px;
+            }
+        }
+    }
+}
